@@ -9,7 +9,7 @@ pipeline{
 
 
    stages{
-     stage('Clone Repository')
+     stage('Clone Repository'){
        steps{
          script{
            try{
